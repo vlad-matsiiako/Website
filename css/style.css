@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-size: 14px;
+}
+
+/* ============= Generic CSS ============== */
+
+.section-title {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+/* =========== Navigation ============ */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #B5B5B5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+} 
+
+
+/* =========== Header ============ */
+.name {
+    font-size: 40px;
+    padding-top: 7px;
+    color: white;
+    font-weight: 600;
+}
+.header {
+    background-color: black;
+}
+.header-overlay {
+    background-color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.greetings-container {
+    display: block;
+}
+.header-text h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    /* padding-top: 30px; */
+    text-transform: uppercase;
+}
+.header-text p {
+    color: black;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+/* .header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+} */
+.picture{
+    max-width: 100%;
+    height: auto;
+}
+.greetings {
+    text-align: center;
+}
+.greetings-text {
+    font-size: 40px;
+    font-weight: 1000;
+}
+.about {
+    padding-top: 30px;
+}
+.about-column {
+    min-width: 350px;
+}
+.about-item {
+    position: relative;
+    /* padding-bottom: 0px; */
+    padding-left: 80px;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+}
+.about-item div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about-item div p{
+    font-size: 50px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.about-item p{
+    /* padding-top: 30px; */
+    font-size: 18px;
+    color: black;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+
+/* .btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+    
+    background: transparent;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+     -o-transition: all 1s;
+}
+.btn-download:hover {
+    background-color: #129CF3;
+    color: #fff;    
+} */
+
+
+/* ========== PROJECTS =========== */
+
+.project-box {
+    max-width:27%;
+    min-width: 27%;
+    background-color: #1a1a1a;
+    border:1px solid #1a1a1a;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-box-right h1 {
+    text-align: center;
+}
+.project-row {
+    display: flex;
+    justify-content: center;
+}
+.project-block1 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.container-projects {
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+
+/* ========= Purchase Now ============= */
+.purchase-now {
+    background-color: #1a1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.purchase-now p {
+    color: #dfdfdf;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-pruchase-now,
+.btn-pruchase-now:active,
+.btn-pruchase-now:focus,
+.btn-pruchase-now:visited 
+{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.cv-text{
+    padding-top: 13px;
+}
+.btn-pruchase-now:hover {
+    background-color: grey;
+    border-color: grey;
+    color: white;
+}
+
+
+
+/* ========= Testimonials ============= */
+.testimonial {
+    background-image: url("../images/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.testimonial-overlay {
+    background-color: rgba(31, 31, 31, .75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+    
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+
+
+
+/* ========= Download Now ============= */
+.download-now img {
+    width: 100%;
+}
+.available-on {
+    
+    background-color: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+.available-title {
+    padding-top: 75px;
+}
+.available-title h2 {
+    
+    color: #fff;
+    font-size: 30px;
+}
+.available-title p {
+    color: #B5B5B5;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0F1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.available-on-item:hover {
+    background-color: #121212;
+}
+.available-on-item i {
+    color: #129CF3;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-item:hover i {
+    opacity: 0;
+}
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.available-on-inner h2 {
+    text-align: center;
+    font-weight:  300;
+    color: #D7DADB;
+    font-size: 16px;
+}
+
+.available-on-item:hover div.available-on-inner {
+    opacity: 1;
+}
+/* ========= Contact Us ============= */
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+#message {
+    height: 117px;
+    resize: none;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    
+    background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #129CF3;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.submit-btn:hover {
+    background: #129CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+.social-icons {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.social-icons ul {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    
+}
+.social-icons ul li { 
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #9d9d9d;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.social-icons ul li a:hover {
+    
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+} 
+.social-icons ul li a i {
+    font-size: 20px;
+}
+
+
+/* ========= Footer ============= */
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129CF3;
+}
+#copyright {
+    width: 50%;
+}
+#copyright p {
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#copyright p a {
+    text-decoration: none;
+    color: #129CF3;
+}
+.scroll-top {
+    text-align: right;
+}
+.scroll-top a {
+    background-color: #129CF3;
+    padding: 25px;
+}
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -219,9 +219,8 @@ p {
     display: flex;
     justify-content: center;
 }
-.project-block1 {
+.project-item {
     height: 80%;
-    width: 80%;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -267,7 +266,6 @@ p {
     border-color: grey;
     color: white;
 }
-
 
 
 /* ========= Testimonials ============= */

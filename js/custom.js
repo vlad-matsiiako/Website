@@ -306,7 +306,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-block1')[0].src = 'images/Cornell.png';
+        $('.project-item1')[0].src = 'images/Cornell.png';
         
         $('.header-overlay').css({
             'background-color': 'rgba(179, 0, 0, 1)',
@@ -334,7 +334,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-block1')[0].src = 'images/cornell_black.png';
+        $('.project-item1')[0].src = 'images/cornell_black.png';
         
         $('.header-overlay').css({
             'background-color': 'black',

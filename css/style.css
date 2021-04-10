@@ -201,10 +201,12 @@ p {
 /* ========== PROJECTS =========== */
 
 .project-box {
+    position: relative;
+    top: 0;
+    left: 0;
     max-width:27%;
     min-width: 27%;
-    background-color: #1a1a1a;
-    border:1px solid #1a1a1a;
+    background-color: rgba(26, 26, 26, 1);
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px;
@@ -219,17 +221,20 @@ p {
     display: flex;
     justify-content: center;
 }
-.project-item {
-    height: 80%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
 .container-projects {
     margin-bottom: 5%;
     background-color: white;
 }
-
+.project-item1 {
+    position: relative;
+    height: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.project-item2 {
+    position: absolute;
+}
 
 /* ========= Purchase Now ============= */
 .purchase-now {

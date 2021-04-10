@@ -306,17 +306,21 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-item1')[0].src = 'images/Cornell.png';
+        $('.project-item2')[0].src = 'images/cornell_red.png';
         
         $('.header-overlay').css({
-            'background-color': 'rgba(179, 0, 0, 1)',
+            'background-color': 'rgba(179, 27, 27, 1)',
             '-webkit-transition': 'background-color 300ms linear'
         });
 
         $('.body-main').css({
-            'background-color': 'rgba(179, 0, 0, 1)',
+            'background-color': 'rgba(179, 27, 27, 1)',
             '-webkit-transition': 'background-color 300ms linear'
         });
+
+        $('.project-box').css({
+            'background-color': 'rgba(184, 60, 60, 1)'
+        })
 
         $('.greetings-text').css({
             'color': 'black',
@@ -324,7 +328,7 @@ $(document).ready(function() {
         });
 
         $('.container-projects').css({
-            'background-color': 'rgba(179, 0, 0, 1)',
+            'background-color': 'rgba(179, 27, 27, 1)',
             '-webkit-transition': 'background-color 300ms linear'
         });
     
@@ -334,7 +338,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-item1')[0].src = 'images/cornell_black.png';
+        $('.project-item2')[0].src = 'images/blank.gif';
         
         $('.header-overlay').css({
             'background-color': 'black',
@@ -345,6 +349,10 @@ $(document).ready(function() {
             'background-color': 'black',
             '-webkit-transition': 'background-color 300ms linear'
         });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)'
+        })
 
         $('.greetings-text').css({
             'color': 'black',

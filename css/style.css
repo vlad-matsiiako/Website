@@ -212,6 +212,7 @@ p {
     margin-right: 15px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .project-box-right h1 {
@@ -234,6 +235,10 @@ p {
 }
 .project-item2 {
     position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 115%;
 }
 
 /* ========= Purchase Now ============= */

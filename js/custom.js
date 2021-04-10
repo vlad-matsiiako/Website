@@ -306,30 +306,39 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-item2')[0].src = 'images/cornell_red.png';
+        $(".project-item2")[0].src = 'images/cornell_red.png';
+
+        $(".project-item1").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item2").css({
+            "opacity": "1",
+            "height": "101%",
+            "transition": "all 1s ease 0s"
+        })
         
         $('.header-overlay').css({
             'background-color': 'rgba(179, 27, 27, 1)',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
 
         $('.body-main').css({
             'background-color': 'rgba(179, 27, 27, 1)',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
 
         $('.project-box').css({
-            'background-color': 'rgba(184, 60, 60, 1)'
+            'background-color': 'rgba(184, 60, 60, 1)',
+            "transition": "all 1s ease 0s"
         })
 
         $('.greetings-text').css({
             'color': 'black',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
 
         $('.container-projects').css({
             'background-color': 'rgba(179, 27, 27, 1)',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
     
     });
@@ -338,30 +347,41 @@ $(document).ready(function() {
         
         'use strict';
 
-        $('.project-item2')[0].src = 'images/blank.gif';
+        // $(".project-item2").fadeTo(800, 0.5, function() {
+        //     $(".project-item2").attr("src",'images/blank.gif');
+        // });
+
+        $(".project-item1").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item2").css({
+            "opacity": "0",
+            "height": "115%",
+            "transition": "all 1s ease 0s"
+        })
         
         $('.header-overlay').css({
             'background-color': 'black',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
 
         $('.body-main').css({
             'background-color': 'black',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
 
         $('.project-box').css({
-            'background-color': 'rgba(26, 26, 26, 1)'
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
         })
 
         $('.greetings-text').css({
-            'color': 'black',
-            '-webkit-transition': 'background-color 300ms linear'
+            'color': 'white',
+            "transition": "all 1s ease 0s"
         });
 
         $('.container-projects').css({
             'background-color': 'black',
-            '-webkit-transition': 'background-color 300ms linear'
+            "transition": "all 1s ease 0s"
         });
     
     });

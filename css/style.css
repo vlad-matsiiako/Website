@@ -226,19 +226,19 @@ p {
     margin-bottom: 5%;
     background-color: white;
 }
-.project-item1 {
-    position: relative;
-    height: 50%;
+.project-item {
     display: flex;
     align-self: center;
     justify-content: center;
 }
+.project-item1 {
+    position: relative;
+    height: 50%;
+}
 .project-item2 {
     position: absolute;
-    display: flex;
-    align-self: center;
-    justify-content: center;
     height: 115%;
+    opacity: 0;
 }
 
 /* ========= Purchase Now ============= */

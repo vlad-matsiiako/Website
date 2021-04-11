@@ -295,33 +295,24 @@ function unhover(element) {
 
 
 
-/* hover on projects */
-
+/* hover on the first project (Cornell) */
 $(document).ready(function() {
     
     'use strict';
-    
     
     $('.project-box1').mouseenter(function(){
         
         'use strict';
 
-        $(".project-item2")[0].src = 'images/cornell_red.png';
+        $(".project-item11").fadeTo(400,0).fadeTo(400,1);
 
-        $(".project-item1").fadeTo(400,0).fadeTo(400,1);
-
-        $(".project-item2").css({
-            "opacity": "1",
+        $(".project-item12").css({
             "height": "101%",
+            "opacity": "1",
             "transition": "all 1s ease 0s"
         })
         
-        $('.header-overlay').css({
-            'background-color': 'rgba(179, 27, 27, 1)',
-            "transition": "all 1s ease 0s"
-        });
-
-        $('.body-main').css({
+        $('.header-overlay, .body-main, .container-projects').css({
             'background-color': 'rgba(179, 27, 27, 1)',
             "transition": "all 1s ease 0s"
         });
@@ -332,12 +323,7 @@ $(document).ready(function() {
         })
 
         $('.greetings-text').css({
-            'color': 'black',
-            "transition": "all 1s ease 0s"
-        });
-
-        $('.container-projects').css({
-            'background-color': 'rgba(179, 27, 27, 1)',
+            'color': 'white',
             "transition": "all 1s ease 0s"
         });
     
@@ -347,24 +333,15 @@ $(document).ready(function() {
         
         'use strict';
 
-        // $(".project-item2").fadeTo(800, 0.5, function() {
-        //     $(".project-item2").attr("src",'images/blank.gif');
-        // });
+        $(".project-item11").fadeTo(400,0).fadeTo(400,1);
 
-        $(".project-item1").fadeTo(400,0).fadeTo(400,1);
-
-        $(".project-item2").css({
+        $(".project-item12").css({
             "opacity": "0",
             "height": "115%",
             "transition": "all 1s ease 0s"
         })
         
-        $('.header-overlay').css({
-            'background-color': 'black',
-            "transition": "all 1s ease 0s"
-        });
-
-        $('.body-main').css({
+        $('.header-overlay, .body-main, .container-projects').css({
             'background-color': 'black',
             "transition": "all 1s ease 0s"
         });
@@ -378,14 +355,180 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+    
+    });
+});
 
-        $('.container-projects').css({
+
+/* hover on the second project (Erasmus Seminar) */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    $('.project-box2').mouseenter(function(){
+        
+        'use strict';
+
+        $(".project-item21").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item22").css({
+            "height": "101%",
+            "opacity": "1",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'rgba(10, 116, 94, 1)',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(60, 153, 132, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+
+    $('.project-box2').mouseleave(function(){
+        
+        'use strict';
+
+        $(".project-item21").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item22").css({
+            "opacity": "0",
+            "height": "115%",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
             'background-color': 'black',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
             "transition": "all 1s ease 0s"
         });
     
     });
 });
+
+
+/* hover on the third project (DSS Paper) */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    $('.project-box3').mouseenter(function(){
+        
+        'use strict';
+
+        $(".project-item31").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item32").css({
+            "height": "101%",
+            "opacity": "1",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'rgba(22, 26, 78, 1)',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(48, 59, 176, 0.6)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+
+    $('.project-box3').mouseleave(function(){
+        
+        'use strict';
+
+        $(".project-item31").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item32").css({
+            "opacity": "0",
+            "height": "115%",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'black',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -200,10 +200,15 @@ p {
 
 /* ========== PROJECTS =========== */
 
+.project-row {
+    display: flex;
+    justify-content: center;
+}
 .project-box {
     position: relative;
     top: 0;
     left: 0;
+    max-height:27%;
     max-width:27%;
     min-width: 27%;
     background-color: rgba(26, 26, 26, 1);
@@ -215,13 +220,6 @@ p {
     overflow: hidden;
 }
 
-.project-box-right h1 {
-    text-align: center;
-}
-.project-row {
-    display: flex;
-    justify-content: center;
-}
 .container-projects {
     margin-bottom: 5%;
     background-color: white;
@@ -234,11 +232,18 @@ p {
 .project-item1 {
     position: relative;
     height: 50%;
+    max-width: 50%;
+    max-height: 50%
 }
 .project-item2 {
     position: absolute;
     height: 115%;
     opacity: 0;
+}
+.project-link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 /* ========= Purchase Now ============= */

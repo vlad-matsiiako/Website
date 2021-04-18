@@ -496,10 +496,24 @@ p {
     -webkit-transition: all 1s;
     
 }
-.social-icons ul li a:hover {
-    
-    background-color: #129CF3;
-    border: 1px solid #129CF3;
+.linkedin:hover {
+    background-color: #0E76A8;
+    border: 1px solid #0E76A8;
+    color: #fff;
+} 
+.instagram:hover {
+    background-color: #833AB4;
+    border: 1px solid #833AB4;
+    color: #fff;
+} 
+.telegram:hover {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+    color: #fff;
+} 
+.github:hover {
+    background-color: #333;
+    border: 1px solid #333;
     color: #fff;
 } 
 .social-icons ul li a i {

@@ -84,61 +84,25 @@ $(document).ready(function(){
         
         if($(window).scrollTop() > 25) {
             
-            $('.header-overlay').css({
+            $('.header-overlay, .body-main, .container-projects').css({
                 'background-color': 'black',
-                '-webkit-transition': 'background-color 300ms linear'
+                '-webkit-transition': 'background-color 1200ms ease'
             });
 
-            $('.body-main').css({
-                'background-color': 'black',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.greetings-text').css({
+            $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
                 'color': 'white',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.container-projects').css({
-                'background-color': 'black',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.header-text h1').css({
-                'color': 'white'
-            });
-
-            $('.about-item p').css({
-                'color': 'white'
+                '-webkit-transition': 'background-color 1200ms ease'
             });
             
         } else {
-            $('.header-overlay').css({
+            $('.header-overlay, .body-main, .container-projects').css({
                 'background-color': 'white',
-                '-webkit-transition': 'background-color 300ms linear'
+                '-webkit-transition': 'background-color 1200ms ease'
             });
 
-            $('.body-main').css({
-                'background-color': 'white',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.greetings-text').css({
-                'color': '#333',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.container-projects').css({
-                'background-color': 'white',
-                '-webkit-transition': 'background-color 300ms linear'
-            });
-
-            $('.header-text h1').css({
-                'color': 'black'
-            });
-
-            $('.about-item p').css({
-                'color': 'black'
+            $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+                'color': 'black',
+                '-webkit-transition': 'background-color 1200ms ease'
             });
         }
        

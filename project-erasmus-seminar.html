@@ -104,7 +104,7 @@
                             <div class="about-item-main">
                             
                                 <h3>Project</h3>
-                                <p>Comparing PCA, (Denoising) Deep Autonencoders, and t-SNE with regards to dimensionality reduction task. As our domain, we take a MNIST data set of American Sign Language. We also study the clustring properties of the mentioned methods on the data set.</p>
+                                <p>Comparing PCA, (Denoising) Deep Autonencoders, and t-SNE with regards to dimensionality reduction task using a MNIST data set of American Sign Language. We also study clustring performance of k-means and k-medoids on the full data set, as well as the obtained reduced data.</p>
                             
                             </div>
                         
@@ -148,13 +148,15 @@
                         
                             <!-- Main Picture -->
                             <div class="description">
-                            
-                                <p>The main contribution of this reserach project is the way how we managed to reproduce the pictures from the Americal Sign Language data set after reducing them from 784 dimensions (pixels) to 13.</p>
-                                <p>Below, you will see the reproduced pictures for the train and test data.</p>
+                                <p>Even though machine learning algorithms are built on the idea of utilising large data sets, having too many features in those data sets may <i>ironically</i> be a problem and lead to over-parameterization. Because of that, it's important to know how we can reduce the dimensionlity of our data and select only the most important compenents.</p>
+                                <p>This is excatly what we do in our paper on the data set containing pictures of American Sign Language. The main contribution of this research project is the way how we managed to reconstruct the pictures of American Sign Language after reducing them from 784 dimensions (each dimension representing a single pixels) to 13 (essentially decreasing the size by more than 60 times!). You can see the final results for both the training and test data sets on the figure below. The pictures at the top are the original data while the ones at the bottom are reconstructed from 13-dimensional embeddings.</p>
+                                <p>This turned out to not only be useful for improving the space and computational efficiency. In fact, using the low-dimensional embeddings produced by the Denoising Deep Autoencoders, we managed to outperform the full-dimensional data in clustering performance (thanks to learning a more general structure of the data, and not specifically the patterns of the training data set).</p>
 
-                                <img src="images/train_reconstructions_denoising.png"></img>
+                                <div class="reserach-image"><img src="images/seminar_reconstructions.png"></img></div>
 
-                                <p>The code can be found in <a href="https://github.com/vlad-matsiiako/seminar_business_analytics">this github repository.</a></p>
+                                <p>Now, the road to success with autoencoders, wasn't always easy and straightforward. If you are interested in this research, you can find all of our findings in <a href="documents/Seminar_Erasmus.pdf" target="_blank"><b>this research paper.</b></a></p>
+
+                                <p>The code that we used to perform the research can be found in <a href="https://github.com/vlad-matsiiako/seminar_business_analytics" target="_blank"><b>this github repository.</b></a></p>
 
                             </div>
                         

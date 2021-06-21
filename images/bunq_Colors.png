@@ -1,0 +1,165 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%HiResBoundingBox: 0 0 120 120
+%%BoundingBox: 0 0 120 120
+%%Creator: Serif Affinity
+%LanguageLevel: 3
+%%DocumentData: Clean7Bit
+%%EndComments
+%%BeginProlog
+101 dict begin
+/m/moveto
+/l/lineto
+/c/curveto
+3{load def}repeat
+%%EndProlog
+gsave
+ 
+ % bunq_Colors
+  gsave
+   newpath
+   120 120 m
+   120 120 0 120 0 120 c
+   0 120 0 0 0 0 c
+   0 0 120 0 120 0 c
+   120 0 120 120 120 120 c
+   closepath
+   eoclip
+   
+   % Group
+    
+    % Rectangle
+      newpath
+      20 120 m
+      20 120 0 120 0 120 c
+      0 120 0 0 0 0 c
+      0 0 20 0 20 0 c
+      20 0 20 120 20 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.137 0.525 0.278 setcolor
+      eofill
+    
+    % Rectangle
+      30 120 m
+      30 120 10 120 10 120 c
+      10 120 10 0 10 0 c
+      10 0 30 0 30 0 c
+      30 0 30 120 30 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.184 0.608 0.278 setcolor
+      eofill
+    
+    % Rectangle
+      40 120 m
+      40 120 20 120 20 120 c
+      20 120 20 0 20 0 c
+      20 0 40 0 40 0 c
+      40 0 40 120 40 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.384 0.714 0.31 setcolor
+      eofill
+    
+    % Rectangle
+      50 120 m
+      50 120 30 120 30 120 c
+      30 120 30 0 30 0 c
+      30 0 50 0 50 0 c
+      50 0 50 120 50 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.537 0.8 0.325 setcolor
+      eofill
+    
+    % Rectangle
+      60 120 m
+      60 120 40 120 40 120 c
+      40 120 40 0 40 0 c
+      40 0 60 0 60 0 c
+      60 0 60 120 60 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.239 0.722 0.678 setcolor
+      eofill
+    
+    % Rectangle
+      70 120 m
+      70 120 50 120 50 120 c
+      50 120 50 0 50 0 c
+      50 0 70 0 70 0 c
+      70 0 70 120 70 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.2 0.58 0.843 setcolor
+      eofill
+    
+    % Rectangle
+      80 120 m
+      80 120 60 120 60 120 c
+      60 120 60 0 60 0 c
+      60 0 80 0 80 0 c
+      80 0 80 120 80 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.157 0.447 0.737 setcolor
+      eofill
+    
+    % Rectangle
+      90 120 m
+      90 120 70 120 70 120 c
+      70 120 70 0 70 0 c
+      70 0 90 0 90 0 c
+      90 0 90 120 90 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.114 0.361 0.518 setcolor
+      eofill
+    
+    % Rectangle
+      100 120 m
+      100 120 80 120 80 120 c
+      80 120 80 0 80 0 c
+      80 0 100 0 100 0 c
+      100 0 100 120 100 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.6 0.196 0.2 setcolor
+      eofill
+    
+    % Rectangle
+      110 120 m
+      110 120 90 120 90 120 c
+      90 120 90 0 90 0 c
+      90 0 110 0 110 0 c
+      110 0 110 120 110 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.882 0.188 0.188 setcolor
+      eofill
+    
+    % Rectangle
+      120 120 m
+      120 120 100 120 100 120 c
+      100 120 100 0 100 0 c
+      100 0 120 0 120 0 c
+      120 0 120 120 120 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.949 0.533 0.145 setcolor
+      eofill
+    
+    % Rectangle
+      120 120 m
+      120 120 110 120 110 120 c
+      110 120 110 0 110 0 c
+      110 0 120 0 120 0 c
+      120 0 120 120 120 120 c
+      closepath
+      /DeviceRGB setcolorspace
+      0.961 0.784 0.212 setcolor
+      eofill
+   grestore
+ grestore
+showpage
+end

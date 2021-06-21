@@ -297,6 +297,92 @@ $(document).ready(function() {
 
 
 
+/* hover on the fourth project (bunq) */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    $('.project-box4').mouseenter(function(){
+        
+        'use strict';
+
+        $(".project-item41").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item42").css({
+            "height": "107%",
+            "opacity": "1",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'rgba(255, 202, 0, 1)',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(255, 230, 128, 0.6)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+
+    $('.project-box4').mouseleave(function(){
+        
+        'use strict';
+
+        $(".project-item41").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item42").css({
+            "opacity": "0",
+            "height": "120%",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'black',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

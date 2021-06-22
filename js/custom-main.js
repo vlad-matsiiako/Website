@@ -133,7 +133,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $(".project-item11").fadeTo(400,0).fadeTo(400,1);
+        $(".project-item11").stop(true).fadeTo(400,0).fadeTo(400,1);
 
         $(".project-item12").css({
             "opacity": "0",
@@ -198,7 +198,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $(".project-item21").fadeTo(400,0).fadeTo(400,1);
+        $(".project-item21").stop(true).fadeTo(400,0).fadeTo(400,1);
 
         $(".project-item22").css({
             "opacity": "0",
@@ -263,7 +263,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $(".project-item31").fadeTo(400,0).fadeTo(400,1);
+        $(".project-item31").stop(true).fadeTo(400,0).fadeTo(400,1);
 
         $(".project-item32").css({
             "opacity": "0",
@@ -335,7 +335,7 @@ $(document).ready(function() {
         
         'use strict';
 
-        $(".project-item41").fadeTo(400,0).fadeTo(400,1);
+        $(".project-item41").stop(true).fadeTo(400,0).fadeTo(400,1);
 
         $(".project-item42").css({
             "opacity": "0",
@@ -363,6 +363,87 @@ $(document).ready(function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hover on the sixth project (DNU) */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    $('.project-box6').mouseenter(function(){
+        
+        'use strict';
+
+        $(".project-item61").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item62").css({
+            "height": "107%",
+            "opacity": "1",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'rgba(40, 122, 201, 1)',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(129, 201, 255, 0.6)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+
+    $('.project-box6').mouseleave(function(){
+        
+        'use strict';
+
+        $(".project-item61").stop(true).fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item62").css({
+            "opacity": "0",
+            "height": "120%",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'black',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+    
+    });
+});
 
 
 

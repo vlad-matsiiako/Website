@@ -8,7 +8,7 @@ $(document).ready(function(){
         
         'use strict';
         
-        if($(window).scrollTop() > 25) {
+        if($(window).scrollTop() > 25 && $(window).scrollTop() < 50) {
             
             $('.header-overlay, .body-main, .container-projects').css({
                 'background-color': 'black',
@@ -20,7 +20,7 @@ $(document).ready(function(){
                 '-webkit-transition': 'background-color 1200ms ease'
             });
             
-        } else {
+        } else if($(window).scrollTop() <= 25) {
             $('.header-overlay, .body-main, .container-projects').css({
                 'background-color': 'white',
                 '-webkit-transition': 'background-color 1200ms ease'

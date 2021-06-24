@@ -30,7 +30,8 @@ $(document).ready(function(){
             });
             
             $('.navbar-default').css({
-                'background-color': 'rgba(0, 0, 0, 0.7)',
+                'background-color': 'rgba(0, 0, 0, 1)',
+                // 166, 25, 46
                 'border-color': '#444'
                 
             });
@@ -43,7 +44,6 @@ $(document).ready(function(){
             
             $('.navbar-nav > li > a ').css({
                 'padding-top': '15px'
-                
                 
             });
             

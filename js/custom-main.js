@@ -126,6 +126,11 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
     
     });
 
@@ -154,6 +159,11 @@ $(document).ready(function() {
         $('.greetings-text').css({
             'color': 'white',
             "transition": "all 1s ease 0s"
+        });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
         });
     
     });
@@ -191,6 +201,11 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
     
     });
 
@@ -219,6 +234,11 @@ $(document).ready(function() {
         $('.greetings-text').css({
             'color': 'white',
             "transition": "all 1s ease 0s"
+        });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
         });
     
     });
@@ -256,6 +276,11 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
     
     });
 
@@ -285,17 +310,14 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
     
     });
 });
-
-
-
-
-
-
-
-
 
 /* hover on the fourth project (bunq) */
 $(document).ready(function() {
@@ -328,6 +350,11 @@ $(document).ready(function() {
             'color': 'white',
             "transition": "all 1s ease 0s"
         });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'black',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
     
     });
 
@@ -356,6 +383,11 @@ $(document).ready(function() {
         $('.greetings-text').css({
             'color': 'white',
             "transition": "all 1s ease 0s"
+        });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
         });
     
     });

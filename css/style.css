@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -32,7 +32,7 @@ p {
     left: 50%;
     width: 60px;
     height: 1px;
-    background-color: #129CF3;
+    background-color: #B31B1B;
     margin-left: -30px;
 }
 
@@ -85,7 +85,7 @@ p {
 .navbar-default .navbar-nav > .active>a:hover,
 .navbar-default .navbar-nav > .active>a:focus {
     background-color: transparent;
-    color: #129CF3;
+    color: white;
 } 
 
 
@@ -135,6 +135,7 @@ p {
 .greetings-text {
     font-size: 40px;
     font-weight: 1000;
+    font-family: 'Montserrat', sans-serif;
 }
 .about {
     padding-top: 30px;
@@ -148,6 +149,7 @@ p {
     padding-left: 80px;
     /* padding-bottom: 10px; */
     padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 .about-item div{
     position: absolute;
@@ -262,9 +264,9 @@ p {
 .btn-pruchase-now:focus,
 .btn-pruchase-now:visited 
 {
-    background-color: white;
-    border: 1px solid white;
-    color: black;
+    background-color: #B31B1B;
+    border: 1px solid #B31B1B;
+    color: white;
     border-radius: 3px;
     padding: 15px 35px;
     text-transform: uppercase;
@@ -276,11 +278,11 @@ p {
 .cv-text{
     padding-top: 13px;
 }
-.btn-pruchase-now:hover {
+/* .btn-pruchase-now:hover {
     background-color: grey;
     border-color: grey;
     color: white;
-}
+} */
 
 
 /* ========= Testimonials ============= */
@@ -380,7 +382,7 @@ p {
     background-color: #121212;
 }
 .available-on-item i {
-    color: #129CF3;
+    color: #B31B1B;
     text-align: center;
     opacity: 1;
     font-size: 40px;
@@ -435,6 +437,12 @@ p {
     -webkit-transition: all 1s;
     
 }
+.contact-us .section-title h2 {
+    color: #aeaeae;
+}
+.contact-us .section-title p {
+    color: #aeaeae;
+}
 #message {
     height: 117px;
     resize: none;
@@ -445,13 +453,14 @@ p {
 .submit-btn:visited {
     
     background-color: transparent;
-    border: 1px solid #129CF3;
+    border: 1px solid #B31B1B;
+    background-color: #B31B1B;
     border-radius: 4px;
     width: 100%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #129CF3;
+    color: white;
     outline: 0px !important;
     transition: all 1s;
     -moz-transition: all 1s;
@@ -459,9 +468,9 @@ p {
     -webkit-transition: all 1s;
 }
 .submit-btn:hover {
-    background: #129CF3;
+    background: #B31B1B;
     color: #fff;
-    border-color: #129CF3;
+    border-color: #B31B1B;
 }
 .social-icons {
     padding-top: 50px;
@@ -526,7 +535,7 @@ p {
     background-color: #1a1a1a;
     padding-bottom: 35px;
     padding-top: 35px;
-    border-bottom: 3px solid #129CF3;
+    border-bottom: 3px solid #B31B1B;
 }
 #copyright {
     width: 50%;
@@ -539,13 +548,13 @@ p {
 }
 #copyright p a {
     text-decoration: none;
-    color: #129CF3;
+    color: #B31B1B;
 }
 .scroll-top {
     text-align: right;
 }
 .scroll-top a {
-    background-color: #129CF3;
+    background-color: #B31B1B;
     padding: 25px;
 }
 .scroll-top a i {

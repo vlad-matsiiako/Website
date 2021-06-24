@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ p {
 .section-title h2 {
     position: relative;
     text-align: center;
-    color: #333;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -32,13 +32,13 @@ p {
     left: 50%;
     width: 60px;
     height: 1px;
-    background-color: #129CF3;
+    background-color: #B31B1B;
     margin-left: -30px;
 }
 
 
 .section-title p {
-    color: #333;
+    color: white;
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
@@ -67,7 +67,7 @@ p {
     
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #129CF3;
+    color: #B31B1B;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #B5B5B5;
@@ -85,7 +85,7 @@ p {
 .navbar-default .navbar-nav > .active>a:hover,
 .navbar-default .navbar-nav > .active>a:focus {
     background-color: transparent;
-    color: #129CF3;
+    color: #B31B1B;
 } 
 
 
@@ -147,7 +147,7 @@ p {
 .name {
     font-size: 40px;
     padding-top: 7px;
-    color: rgba(128, 128, 128, 0.5);
+    color: rgba(255, 255, 255, 1);
     font-weight: 600;
 }
 .header-overlay {
@@ -192,7 +192,7 @@ p {
     background-color: #1a1a1a;
     padding-bottom: 35px;
     padding-top: 35px;
-    border-bottom: 3px solid #129CF3;
+    border-bottom: 3px solid #B31B1B;
 }
 #copyright {
     width: 50%;
@@ -205,13 +205,13 @@ p {
 }
 #copyright p a {
     text-decoration: none;
-    color: #129CF3;
+    color: #B31B1B;
 }
 .scroll-top {
     text-align: right;
 }
 .scroll-top a {
-    background-color: #129CF3;
+    background-color: #B31B1B;
     padding: 25px;
 }
 .scroll-top a i {

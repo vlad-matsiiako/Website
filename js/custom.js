@@ -157,14 +157,6 @@ $(document).ready(function() {
     
 });
 
-// // change https when hovering
-// function hover(element, path) {
-//     element.setAttribute('src', path);
-// }
-  
-// function unhover(element) {
-//     element.setAttribute('src', path);
-// }
 
 
 

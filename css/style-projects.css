@@ -144,6 +144,9 @@ p {
 .about img {
     max-width: 100%;
 }
+.description p {
+    font-size: 16px;
+}
 .name {
     font-size: 40px;
     padding-top: 7px;

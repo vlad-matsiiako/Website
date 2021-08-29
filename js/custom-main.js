@@ -245,6 +245,83 @@ $(document).ready(function() {
 });
 
 
+
+
+/* hover on the fifth project (Erasmus Thesis) */
+$(document).ready(function() {
+    
+    'use strict';
+    
+    $('.project-box5').mouseenter(function(){
+        
+        'use strict';
+
+        $(".project-item51").fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item52").css({
+            "height": "101%",
+            "opacity": "1",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'rgba(135, 68, 144, 1)',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(195, 95, 201, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
+    
+    });
+
+    $('.project-box5').mouseleave(function(){
+        
+        'use strict';
+
+        $(".project-item51").stop(true).fadeTo(400,0).fadeTo(400,1);
+
+        $(".project-item52").css({
+            "opacity": "0",
+            "height": "115%",
+            "transition": "all 1s ease 0s"
+        })
+        
+        $('.header-overlay, .body-main, .container-projects').css({
+            'background-color': 'black',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.project-box').css({
+            'background-color': 'rgba(26, 26, 26, 1)',
+            "transition": "all 1s ease 0s"
+        })
+
+        $('.greetings-text').css({
+            'color': 'white',
+            "transition": "all 1s ease 0s"
+        });
+
+        $('.greetings-text, .about-item-main p, .project h2, .header-text h1, .about-item p').css({
+            'color': 'white',
+            '-webkit-transition': 'background-color 1200ms ease'
+        });
+    
+    });
+});
+
+
 /* hover on the third project (DSS Paper) */
 $(document).ready(function() {
     

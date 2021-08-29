@@ -144,7 +144,13 @@ p {
 .about img {
     max-width: 100%;
 }
+.title {
+    text-align: center;
+}
 .description p {
+    font-size: 16px;
+}
+.description u li {
     font-size: 16px;
 }
 .name {

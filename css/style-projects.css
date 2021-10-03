@@ -170,7 +170,7 @@ p {
     max-width: 70%;
 }
 .reserach-image {
-    display: flex;
+    /* display: flex; */
     align-self: center;
     justify-content: center;
 }
